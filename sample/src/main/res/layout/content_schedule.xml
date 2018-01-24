@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BaseActivity"
     android:background="#fff">
 
     <com.alamkanak.weekview.WeekView
@@ -15,7 +14,7 @@
         app:hourHeight="40dp"
         app:headerColumnPadding="2dp"
         app:headerColumnTextColor="@color/toolbar_text"
-        app:headerRowPadding="2dp"
+        app:headerRowPadding="10dp"
         app:columnGap="8dp"
         app:noOfVisibleDays="7"
         app:headerRowBackgroundColor="@color/toolbar"
